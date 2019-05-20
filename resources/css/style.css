@@ -1,0 +1,316 @@
+/* INFOS GENERALES
+
+- DOCUMENT      	blog de thé
+- version       	1.0.0
+- author        	 cath 
+
+COLORS
+Default body    	black
+background-color	black
+h1 h2           	b93232
+ 
+*/
+
+
+
+
+html {
+    background-color: black;
+}
+
+p {
+	text-align: justify;
+}
+
+
+header {
+    background-image:  url(../images/servir-the.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+        }
+
+
+
+h1, h2 {
+    font-family:'Josefin Sans', 'Arial', 'sans-serif';
+    text-transform: uppercase;
+    color: #b93232;
+    font-weight:500;
+    letter-spacing: 8px
+}
+
+h4 {
+	text-align: center;
+}
+
+.home-title {
+position: relative;
+    top: 50%;
+    left: -20%;
+    color: #fff;
+   
+}
+.ecrit-blanc {
+    position: relative;
+    top: 55%;
+    left: -20%;
+    color: white;
+    letter-spacing: 2.8px;
+}
+.btn {
+    position: relative;
+    top: 60%;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #a22c2c;
+    color: white;
+    margin-left: 18px;
+
+    }
+
+.btn-full:hover {
+    background-color: #c18787;
+    color: black;
+}
+
+.btn-ghost:hover {
+    background-color: #c18787;
+    color: black;
+}
+
+/* LES DIFFERENTS THES-------------------------------------*/
+
+h2 {
+    color: #b93232;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: .30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #b93232;
+    width: 407px;
+    content:" ";
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.produit-img {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.produit-icone {
+    font-size: 34px;
+    color: #b93232;
+}
+
+.par-produit {
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+/* LES FAMILLES THES---------------------------------*/
+.famille-the {
+    background-color: white;
+}
+.famille-detail {
+    margin-top: 20px;
+    background-color:rgba(197, 20, 20, 0.4);
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(170, 39, 39, 0.3);
+}
+.famille-detail img{
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+
+/* GALERIE PHOTOS------------------------------------*/
+
+.galerie-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 30px;
+}
+.titre-img {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-weight: bold;
+}
+.galerie-img h4 {
+    color: rgb(133, 30, 30);
+    }
+
+/* LES AVIS CLIENTS--------------------------------------*/
+.clients {
+    background-image: url(../images/feuille-the1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+.client-blaise {
+    color: black;
+}
+blockquote:before {
+    content:"\201C";
+    font-size: 600%;
+    font-family: "Sanchez", serif;
+    position: absolute; 
+    top: -25px; 
+    left: 5px;
+}
+blockquote span {
+    color: black;
+}
+
+
+blockquote {
+    padding: 30px;
+    font-style: italic;
+    color: white;
+}
+
+cite {
+    font-size: 100%;
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+cite img {
+        height:50px;
+        border-radius: 50%; 
+        margin-right: 15px;
+}
+
+/* LES PRIX DES PACKS--------------------------------------*/
+
+.pack {
+    box-shadow: 0 0 200px rgba(194, 39, 39, 0.3);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.pack h3 {
+    color : #b93232;
+    font-weight: 400;
+}
+
+.pack span {
+    font-weight: 100;
+    font-size: 40%;
+    position: relative;
+    top: -12px;
+    left: 5px;
+}
+
+
+.pack h4 {
+    font-size: 200%;
+    font-weight: 100;
+    }
+
+.pack-title {
+    padding: 10px 10px 0 10px;
+    border-bottom: 2px solid rgba(194, 39, 39, 0.3);    
+    text-align: center;
+}
+
+.pack-title p {
+    text-align: center;
+}
+.pack-content ul {
+    list-style: none;
+    padding: 40px; 
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.pack-content ul li i {
+    margin-right : 15px;
+    color: rgba(194, 39, 39, 0.5)
+}
+
+.pack-signup {
+    text-align: center;
+}
+
+.pack-btn:hover {
+    background-color: #c18787;
+    color: black;
+}
+
+.pack-premium {
+    background-color: rgba(194, 39, 39, 0.3)
+}
+.pack-title-premium {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 1  px; 
+    right: 14px;
+    background-color : white;
+    color:  #b93232;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+/* contact-------------------------------------*/
+.contact-form {
+    margin-bottom: 20px;
+}
+.contact-message {
+    width: 100%;
+}
+
+.map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.contact-btn:hover {
+    background-color: #c18787;
+    color: black;
+}
+
+footer {
+    background-color: rgb(92, 90, 90);
+    color: #fff;
+    height: 50px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 80%;
+}
+
+.copyright a {
+    color: #fff;
+}
